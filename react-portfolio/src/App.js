@@ -1,12 +1,11 @@
-
 import './App.css';
-import Header from '../src/components/Header';
-// import Navigation from '../src/components/Nav';
+import ContentContainer from './components/ContentContainer';
+ 
 
 function App() {
   return (
     <div className="portfolio">
-      < Header/>
+      < ContentContainer />
     </div>
   );
 }
