@@ -1,16 +1,17 @@
 import React from 'react';
 import { Navbar, Nav} from 'react-bootstrap'
+// import AboutMe from '../About';
 
 
 
-
+// passing the prop to Navigation component
 const Navigation = ({ onClick }) => {
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link href="#aboutMe" onClick={() => onClick('About Me')}>
+          <Nav.Link href="#aboutMe" onClick={() => onClick('AboutMe')}>
             About Me
           </Nav.Link>
           <Nav.Link href="#portfolio" onClick={() => onClick('Portfolio')}>
