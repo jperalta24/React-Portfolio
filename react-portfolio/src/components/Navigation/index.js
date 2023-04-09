@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav} from 'react-bootstrap'
+// import { Navbar, Nav} from 'react-bootstrap'
 // import AboutMe from '../About';
 
 
@@ -7,25 +7,43 @@ import { Navbar, Nav} from 'react-bootstrap'
 // passing the prop to Navigation component
 const Navigation = ({ onClick }) => {
   return (
-    <Navbar bg="dark" expand="lg">
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav>
-          <Nav.Link href="#aboutMe" onClick={() => onClick('AboutMe')}>
-            About Me
-          </Nav.Link>
-          <Nav.Link href="#portfolio" onClick={() => onClick('Portfolio')}>
-            Portfolio
-          </Nav.Link>
-          <Nav.Link href="#contact" onClick={() => onClick('Contact')}>
-            Contact
-          </Nav.Link>
-          <Nav.Link href="#resume" onClick={() => onClick('Resume')}>
-            Resume
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar"
+        aria-controls="navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbar">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+            <a className="nav-link" href="#aboutMe" onClick={() => onClick('AboutMe')}>
+              About Me
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#portfolio" onClick={() => onClick('Portfolio')}>
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#contact" onClick={() => onClick('Contact')}>
+              Contact
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#resume" onClick={() => onClick('Resume')}>
+              Resume
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 

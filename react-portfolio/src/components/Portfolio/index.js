@@ -62,6 +62,52 @@ function Portfolio() {
                             </div>
                         </div>
 
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100 enlarge-card">
+                                <div class="card-header bg-primary">
+                                    <h5>Tools/Languages:</h5>
+                                </div>
+                                <img class="card-img-top" src="project3.jpg" alt=""/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Project 3 Coming Soon</h4>
+                                        <p class="card-text">Short description of Project 3.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="project3.html" class="btn btn-primary">View Project</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100 enlarge-card">
+                                <div class="card-header bg-primary">
+                                    <h5>Tools/Languages:</h5>
+                                </div>
+                                <img class="card-img-top" src="project3.jpg" alt=""/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Project 3 Coming Soon</h4>
+                                        <p class="card-text">Short description of Project 3.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="project3.html" class="btn btn-primary">View Project</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100 enlarge-card">
+                                <div class="card-header bg-primary">
+                                    <h5>Tools/Languages:</h5>
+                                </div>
+                                <img class="card-img-top" src="project3.jpg" alt=""/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Project 3 Coming Soon</h4>
+                                        <p class="card-text">Short description of Project 3.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="project3.html" class="btn btn-primary">View Project</a>
+                                    </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ function ContentContainer() {
     };
 
     return (
-        <div className='min-vh-100'>
+        <div className=''>
         <Header currentPage={displayPage} pageChange={handleNavClick} />
         <Body currentPage={displayPage} className=''/>
         <Footer />
