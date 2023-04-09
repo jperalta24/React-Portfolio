@@ -5,7 +5,7 @@ import ContentContainer from './components/ContentContainer';
 
 function App() {
   return (
-    <div className="portfolio">
+    <div className="">
       < ContentContainer />
     </div>
   );

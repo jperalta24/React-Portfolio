@@ -1,32 +1,30 @@
 import React from 'react';
-// import profileImg from './images/';
-import { Container, Row, Col, } from 'react-bootstrap';
+import ProfileImg from '../../Images/Profile-Pic.jpg';
 
 function AboutMe() {
   return (
-    <section id='aboutMe' className='mb-5'>
-      <Container>
-        <Row>
-          <Col md={4}>
-            <img src='./images/Profile-Pic.jpg' alt='Profile' fluid />
-          </Col>
-          <Col md={8}>
-            <h1 id='about'>About Me</h1>
-            <p>
-              Dynamic project engineer with 5 years of experience in the
-              construction industry, skilled in project planning, resource
-              management, and team leadership. Possess strong problem-solving
-              skills and the ability to adapt to changing circumstances.
-              Recently completed a coding bootcamp at the University of
-              Washington, gaining proficiency in JavaScript for front-end and
-              back-end development. Seeking a junior web developer position to
-              utilize technical skills and passion for software development.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+    <section id='aboutMe' className='my-5'>
+      <div className='row align-items-center'>
+        <div className='col-md-6 text-center'>
+          <img src={ProfileImg} alt='Profile' className='mr-3'  style={{
+            width: '450px',
+            height: '450px',
+            objectFit: 'cover',
+            borderRadius: '50%'
+          }}  />
+        </div>
+        <div className='col-md-4'>
+          <h1 className='text-primary mb-4'>About Me</h1>
+          <p className='lead'>
+            I am a dynamic software developer with experience in creating and deploying modern web applications. My expertise in software engineering, coupled with my ability to lead teams and create effective solutions, make me a valuable addition to any tech company. My skills include proficiency in front-end and back-end development using JavaScript, React, Node.js, and more.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
+
+
+
 
 export default AboutMe;

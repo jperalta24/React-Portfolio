@@ -7,7 +7,7 @@ import { Navbar, Nav} from 'react-bootstrap'
 // passing the prop to Navigation component
 const Navigation = ({ onClick }) => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>

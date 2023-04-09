@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../Header/index'
 import Body from '../Body/index'
+import Footer from '../Footer/index'
 
 //parent for components
 function ContentContainer() {
@@ -11,11 +12,12 @@ function ContentContainer() {
     };
 
     return (
-        <>
-            <Header currentPage={displayPage} pageChange= {handleNavClick} />
-            <Body currentPage={displayPage}/>
-        </>
-    )
+        <div className='min-vh-100'>
+        <Header currentPage={displayPage} pageChange={handleNavClick} />
+        <Body currentPage={displayPage} className=''/>
+        <Footer />
+      </div>
+    );
 
 }
 
