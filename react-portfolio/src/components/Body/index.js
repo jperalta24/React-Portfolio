@@ -18,9 +18,10 @@ function Body({ currentPage }) {
         }
     }
     return (
-        <div className='d-flex flex-column min-vh-100'>
-            {renderPage()}
-        </div>
+        <div className="d-flex flex-column">
+  {renderPage()}
+</div>
+
     )
 }
 

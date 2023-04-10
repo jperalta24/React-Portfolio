@@ -1,6 +1,14 @@
 * {
- 
+  /* color: var(--primary-color); */
   box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #e4dfde;
+}
+
+html, body {
+  height: 100%;
 }
 
 #root{
@@ -12,7 +20,9 @@
 
 body{
   width: 100%;
-  padding-top: 120px;
+  margin: 0;
+  padding: 0;
+  /* padding-top: 120px; */
   overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -20,6 +30,11 @@ body{
   ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./Images/background-img.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
@@ -27,8 +42,9 @@ code {
     monospace;
 }
 
-.icons {
-  color: brown;
+
+a{
+  text-decoration: none;
 }
 
 .contact {
@@ -98,3 +114,52 @@ code {
 #aboutMe{
   padding-top: 100px;
 }
+
+.nav-item{
+  font-size: x-large;
+}
+
+.lead{
+  font-size: 1.5rem !important;
+  color: var(--primary-color);
+
+}
+
+#aboutH1{
+  color: rgb(91, 142, 172);
+}
+
+#headerH1{
+  color: rgb(91, 142, 172);
+}
+
+#Portfolio{
+  padding-top: 120px;
+}
+
+.icons{
+  color: rgb(91, 142, 172) !important;
+}
+
+#Resume{
+  color: var(--primary-color);
+}
+
+.skill-icon{
+  color: rgb(91, 142, 172) !important;
+  font-size: 3rem;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+.h2Resume{
+  color: var(--primary-color)  !important;
+  font-size: xx-large !important;
+}
+
+#resumeD{
+  font-size: larger;
+}
+

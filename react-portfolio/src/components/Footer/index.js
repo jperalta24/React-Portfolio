@@ -2,25 +2,24 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
+
 function Footer() {
   return (
     <footer className="footer fixed-bottom">
-      <div className="container">
-        <div className="row">
-          <div className="col-12 text-center">
-            <a href="https://github.com/yourusername">
-              <i className='icons'>
-                <FaGithub size={45}/>
+          
+            <div class="text-left"  style={{ marginLeft: '60px', marginBottom: '60px' }}>
+              <a href="https://github.com/jperalta24">
+                <i className='icons' style={{ color: '#5B8EAC' }}>
+                  <FaGithub size={45}/>
                 </i>
-            </a>
-            <a href="https://www.linkedin.com/in/yourusername">
-              <i className="icons">
-                <FaLinkedin size={45}/>
-              </i>
-            </a>
-          </div>
-        </div>
-      </div>
+              </a>
+              <a href="https://www.linkedin.com/in/jonathan-peralta-101430260/">
+                <i className="icons">
+                  <FaLinkedin size={45}/>
+                </i>
+              </a>
+            </div>
+         
     </footer>
   );
 }

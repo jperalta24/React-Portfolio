@@ -1,7 +1,4 @@
 import React from 'react';
-// import { Navbar, Nav} from 'react-bootstrap'
-// import AboutMe from '../About';
-
 
 
 // passing the prop to Navigation component

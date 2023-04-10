@@ -6,7 +6,7 @@ import Navigation from '../Navigation';
 const Header = ({ currentPage, pageChange }) => {
   return (
     <header className="d-flex justify-content-between align-items-center bg-dark py-4 px-4 fixed-top">
-      <h1 className='text-white mb-0'> Jonathan Peralta</h1>
+      <h1 className='mb-0' id='headerH1'> Jonathan Peralta</h1>
       <div className="ml-auto">
         <Navigation onClick={pageChange} />
       </div>

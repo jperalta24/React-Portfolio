@@ -28,13 +28,8 @@ function Contact() {
     }
   };
 
-  // const validateEmail = (email) => {
-  //   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  //   return regex.test(email);
-  // };
-
   return (
-    <div className="contact" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div className="contact" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '200px' }}>
   <h2 style={{ marginBottom: '20px' }}>Contact</h2>
   {formSubmitted && <p>Thank you for your message!</p>}
   <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

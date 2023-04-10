@@ -14,7 +14,7 @@ function AboutMe() {
           }}  />
         </div>
         <div className='col-md-4'>
-          <h1 className='text-primary mb-4'>About Me</h1>
+          <h1 className='mb-4' id='aboutH1'>About Me</h1>
           <p className='lead'>
             I am a dynamic software developer with experience in creating and deploying modern web applications. My expertise in software engineering, coupled with my ability to lead teams and create effective solutions, make me a valuable addition to any tech company. My skills include proficiency in front-end and back-end development using JavaScript, React, Node.js, and more.
           </p>
