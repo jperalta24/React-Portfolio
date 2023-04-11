@@ -163,3 +163,8 @@ li{
   font-size: larger;
 }
 
+.navTitle{
+  margin-left: 80px !important;
+  color: var(--primary-color);
+}
+

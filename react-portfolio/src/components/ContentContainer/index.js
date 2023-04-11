@@ -5,7 +5,7 @@ import Footer from '../Footer/index'
 
 //parent for components
 function ContentContainer() {
-    const [displayPage, setDisplayPage] = useState(''); //initialize state with empty string
+    const [displayPage, setDisplayPage] = useState('AboutMe'); //initialize state with empty string
 
     const handleNavClick = (navItem) => {
       setDisplayPage(navItem);

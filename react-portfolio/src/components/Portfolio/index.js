@@ -7,6 +7,7 @@ function Portfolio() {
     return (
         <section className="project-section my-5" id="Portfolio">
             <div className="resume-section-content">
+            <h1 className='navTitle'>Portfolio</h1>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 mb-4">
