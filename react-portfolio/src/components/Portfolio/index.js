@@ -61,16 +61,16 @@ function Portfolio() {
                         <div className="col-lg-6 mb-4">
                             <div className="card h-100 enlarge-card">
                                 <div class="card-header bg-primary">
-                                    <h5>Tools/Languages:</h5>
+                                    <h5>Tools/Languages:MERN</h5>
                                 </div>
                                 <img class="card-img-top" src="project3.jpg" alt="" />
                                 <div class="card-body">
-                                    <h4 class="card-title">Project 3 Coming Soon</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+                                    <h4 class="card-title">ConstructDaily</h4>
+                                    <p class="card-text">ConstructDaily is a construction project management tool designed to help project managers efficiently manage and monitor project progress, resource usage, safety incidents, and communication among team members. It provides a user-friendly interface for creating and updating daily logs for each project, with a wide range of information fields such as work completed, materials used, equipment usage, weather conditions, delays and disruptions, safety incidents, and communication.</p>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="project3.html" class="btn btn-primary">View Project</a>
-                                    <a href="blank" target="_blank" rel='noreferrer'>
+                                    <a href="https://peaceful-refuge-36049.herokuapp.com/" class="btn btn-primary">View Project</a>
+                                    <a href="https://github.com/jperalta24/ConstructDaily" target="_blank" rel='noreferrer'>
                                         <i className='icons'>
                                             <FaGithub size={45} />
                                         </i>
