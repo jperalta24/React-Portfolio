@@ -1,48 +1,20 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 
-
-// passing the prop to Navigation component
 const Navigation = ({ activeSection, onClick }) => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbar"
-        aria-controls="navbar"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbar">
-        <ul className="navbar-nav mr-auto">
-          <li className={`nav-item ${activeSection === 'AboutMe' ? 'active' : ''}`}>
-            <a className="nav-link" href="#aboutMe" onClick={() => onClick('AboutMe')}>
-              About Me
-            </a>
-          </li>
-          <li className={`nav-item ${activeSection === 'Portfolio' ? 'active' : ''}`}>
-            <a className="nav-link" href="#portfolio" onClick={() => onClick('Portfolio')}>
-              Portfolio
-            </a>
-          </li>
-          <li className={`nav-item ${activeSection === 'Contact' ? 'active' : ''}`}>
-            <a className="nav-link" href="#contact" onClick={() => onClick('Contact')}>
-              Contact
-            </a>
-          </li>
-          <li className={`nav-item ${activeSection === 'Resume' ? 'active' : ''}`}>
-            <a className="nav-link" href="#resume" onClick={() => onClick('Resume')}>
-              Resume
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#aboutMe" onClick={() => onClick('AboutMe')} active={activeSection === 'AboutMe'}>About Me</Nav.Link>
+          <Nav.Link href="#portfolio" onClick={() => onClick('Portfolio')} active={activeSection === 'Portfolio'}>Portfolio</Nav.Link>
+          <Nav.Link href="#contact" onClick={() => onClick('Contact')} active={activeSection === 'Contact'}>Contact</Nav.Link>
+          <Nav.Link href="#resume" onClick={() => onClick('Resume')} active={activeSection === 'Resume'}>Resume</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
-
 
 export default Navigation;
