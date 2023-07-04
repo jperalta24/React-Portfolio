@@ -1,6 +1,7 @@
 import React from 'react';
 import PetFriends from '../../Images/petfriends.png';
 import WoWConnect from '../../Images/Project2.png';
+import ConstructDaily from '../../Images/ConstructDaily.png';
 import { FaGithub } from 'react-icons/fa';
 
 function Portfolio() {
@@ -8,18 +9,17 @@ function Portfolio() {
         <section className="project-section my-5" id="Portfolio">
             <div className="resume-section-content">
             <h1 className='navTitle'>Portfolio</h1>
-                <div className="container">
+                <div className="container port-container">
                     <div className="row">
                         <div className="col-lg-6 mb-4">
                             <div className="card h-100 enlarge-card" >
-                                <div className="card-header bg-primary">
+                                <div className="card-header portfolio-header">
                                     <h5>Tools/Languages: HTML, JavaScript, Third-Party API's, CSS (Bulma)</h5>
                                 </div>
                                 <img className="card-img-top" src={PetFriends} alt="" />
                                 <div className="card-body">
                                     <h4 className="card-title">PetFriends</h4>
-                                    <p className="card-text">PetFriends is an innovative and user-friendly pet adoption application that
-                                        utilizes Petfinder's API to connect pet lovers with their perfect furry companions. Our passionate team of developers created this platform with a simple yet powerful goal in mind: to help people find their dream pets with ease and convenience.
+                                    <p className="card-text">PetFriends is a user-centric pet adoption application. It leverages Petfinder's API to match prospective pet owners with their ideal companions. Our team developed this platform with a clear objective: to streamline pet adoption, making it easier and more convenient for users. 
                                     </p>
                                 </div>
                                 <div className="card-footer">
@@ -36,14 +36,14 @@ function Portfolio() {
 
                         <div className="col-lg-6 mb-4">
                             <div className="card h-100 enlarge-card">
-                                <div className="card-header bg-primary">
+                                <div className="card-header portfolio-header">
                                     <h5>Tools/Languages:JavaScript, Node.js, MySQL, Express, Bootstrap</h5>
                                 </div>
                                 <img className="card-img-top" src={WoWConnect} alt="" />
                                 <div className="card-body">
                                     <h4 className="card-title">WoW-Connect</h4>
                                     <p className="card-text">WoW-Connect is a World of Warcraft LFG.
-                                        I spearheaded the development of an application that connects World of Warcraft players, enabling them to play games together seamlessly. As the team lead, I was responsible for both the front and back-end development of the application.
+                                    WoW-Connect serves as an engaging platform for World of Warcraft gamers seeking group play. I led the development of this application, ensuring seamless connectivity among players. I was responsible for both front-end and back-end development. 
                                     </p>
                                 </div>
                                 <div className="card-footer">
@@ -60,10 +60,10 @@ function Portfolio() {
 
                         <div className="col-lg-6 mb-4">
                             <div className="card h-100 enlarge-card">
-                                <div class="card-header bg-primary">
+                                <div class="card-header portfolio-header">
                                     <h5>Tools/Languages:MERN</h5>
                                 </div>
-                                <img class="card-img-top" src="project3.jpg" alt="" />
+                                <img class="card-img-top" src={ConstructDaily} alt="" />
                                 <div class="card-body">
                                     <h4 class="card-title">ConstructDaily</h4>
                                     <p class="card-text">ConstructDaily is a construction project management tool designed to help project managers efficiently manage and monitor project progress, resource usage, safety incidents, and communication among team members. It provides a user-friendly interface for creating and updating daily logs for each project, with a wide range of information fields such as work completed, materials used, equipment usage, weather conditions, delays and disruptions, safety incidents, and communication.</p>
@@ -79,7 +79,7 @@ function Portfolio() {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 mb-4">
+                        {/* <div className="col-lg-6 mb-4">
                             <div className="card h-100 enlarge-card">
                                 <div class="card-header bg-primary">
                                     <h5>Tools/Languages:</h5>
@@ -138,7 +138,7 @@ function Portfolio() {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

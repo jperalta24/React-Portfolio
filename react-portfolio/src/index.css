@@ -5,6 +5,10 @@
 
 :root{
   --primary-color: #e4dfde;
+  --secondary-color: #ff5722;
+  --tertiary-color: #2196f3;
+  --light-gray: #f5f5f5;
+  --dark-gray: #333333;
 }
 
 html, body {
@@ -135,6 +139,7 @@ a{
 
 #Portfolio{
   padding-top: 120px;
+  /* color:  rgb(91, 142, 172); */
 }
 
 .icons{
@@ -167,4 +172,17 @@ li{
   margin-left: 80px !important;
   color: var(--primary-color);
 }
+
+.portfolio-header{
+  background-color: var(--primary-color)
+}
+
+.card-body{
+  background-color: var(--primary-color);
+}
+
+.card-footer{
+  background-color: var(--light-gray);
+}
+
 
