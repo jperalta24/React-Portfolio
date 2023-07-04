@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a9d5619f.css",
-    "main.js": "/React-Portfolio/static/js/main.e4a7bd6a.js",
+    "main.css": "/React-Portfolio/static/css/main.ad09a774.css",
+    "main.js": "/React-Portfolio/static/js/main.e48084d9.js",
     "static/media/Project2.png": "/React-Portfolio/static/media/Project2.b98831673e304787d6e3.png",
     "static/media/Profile-Pic.jpg": "/React-Portfolio/static/media/Profile-Pic.0c05d81bec253ffe94ec.jpg",
     "static/media/petfriends.png": "/React-Portfolio/static/media/petfriends.3ca14e150579a6e88764.png",
     "static/media/background-img.png": "/React-Portfolio/static/media/background-img.ff802ca531e9bec4674d.png",
-    "static/media/Resume.JonathanPeralta.docx": "/React-Portfolio/static/media/Resume.JonathanPeralta.0cbf8cc836fe637d3efb.docx",
+    "static/media/Resume.JonathanPeralta.docx": "/React-Portfolio/static/media/Resume.JonathanPeralta.00c4197c47ec5f2cbc8a.docx",
     "index.html": "/React-Portfolio/index.html",
-    "main.a9d5619f.css.map": "/React-Portfolio/static/css/main.a9d5619f.css.map",
-    "main.e4a7bd6a.js.map": "/React-Portfolio/static/js/main.e4a7bd6a.js.map"
+    "main.ad09a774.css.map": "/React-Portfolio/static/css/main.ad09a774.css.map",
+    "main.e48084d9.js.map": "/React-Portfolio/static/js/main.e48084d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9d5619f.css",
-    "static/js/main.e4a7bd6a.js"
+    "static/css/main.ad09a774.css",
+    "static/js/main.e48084d9.js"
   ]
 }
